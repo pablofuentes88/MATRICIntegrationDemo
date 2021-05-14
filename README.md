@@ -5,10 +5,11 @@ API and demo make it in Node.js
 # INSTALL
 
 - Clone the proyect
-- Open Demo directory
+- Double click in IntegrationDemo.deck to add this deck in MATRIC Server.
 
 # RUN
 
+- Open Demo directory
 - Open a terminal in this directory
 - Write: npm start
 - MATRIC Server show you a PIN
