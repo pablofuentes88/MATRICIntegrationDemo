@@ -2,17 +2,57 @@
 
 API and demo make it in Node.js
 
-# INSTALL
+```javascript
+const { APIMatric } = require("apimatric");
+const api = new APIMatric("NameOfYourApplication");
+api.Connect();
+```
 
-- Clone the proyect
-- Double click in IntegrationDemo.deck to add this deck in MATRIC Server.
+**MATRIC Server show you a PIN, save it!**
 
-# RUN
+> You can read this PIN later in the MATRIC Server in Settings/API Integration.
 
-- Open Demo directory
-- Open a terminal in this directory
-- Write: npm start
-- MATRIC Server show you a PIN
-- Replaces the PIN in the line 4 with your PIN.
-- Run the program again with: npm start.
-- Enjoy the Demo
+## INSTALL
+
+This is a [Node.js](https://nodejs.org/en/) module available through the [npm registry](https://www.npmjs.com/).
+
+Before installing, [download and install Node.js](https://nodejs.org/en/download/). Node.js 0.10 or higher is required.
+
+Installation is done using the [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+
+`$ npm install apimatric --save`
+
+## USER MANUAL
+
+- Set the PIN
+  `api.setPIN("YourMATIC Server PIN");`
+
+- GetConnectedClients
+  `api.GetConnectedClients();`
+
+- SetDeck.- Parameters **deckId** and **pageId**
+  `api.SetDeck(deckId, pageId);`
+
+- SetActivePage.- Parameters **pageId**
+  `api.SetActivePage(pageID)`
+
+- SetButtonProperties.- Parameters **buttonId** and **props**
+  - props.
+    - imageOff
+    - imageOn
+    - textcolorOn
+    - textcolorOff
+    - backgroundcolorOn
+    - backgroundcolorOff
+    - fontSize
+    - text
+
+```javascript
+api.SetButtonProperties(buttonId, {
+	backgroundcolorOff: "red",
+	text: "Fire",
+});
+```
+
+- Close.- Close the client connection.
+  `api.Close();`
