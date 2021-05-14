@@ -1,4 +1,4 @@
-const { APIMatric, propsBtn } = require("./APIMatric");
+const { APIMatric, propsBtn } = require("../API/APIMatric");
 const promt = require("prompt");
 
 let m_pin = "8264";
