@@ -1,0 +1,22 @@
+{
+  "name": "apimatric",
+  "version": "1.0.1",
+  "description": "Easy API to connect to MATRC Server.",
+  "main": "APIMatric.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablofuentes88/MATRICIntegrationDemo.git"
+  },
+  "keywords": [
+    "MATRIC"
+  ],
+  "author": "Pablo Andrés Fuentes O.",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/pablofuentes88/MATRICIntegrationDemo/issues"
+  },
+  "homepage": "https://github.com/pablofuentes88/MATRICIntegrationDemo#readme"
+}
