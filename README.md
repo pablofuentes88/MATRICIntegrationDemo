@@ -1,4 +1,5 @@
 # MATRICIntegrationDemo
+[![Rate on Openbase](https://badges.openbase.com/js/rating/apimatric.svg)](https://openbase.com/js/apimatric?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge)
 
 API and demo make it in Node.js
 
